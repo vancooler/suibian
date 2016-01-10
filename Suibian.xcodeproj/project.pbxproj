@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8F59011C42D258005BC29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8F59001C42D258005BC29B /* AppDelegate.swift */; };
+		CD8F59031C42D258005BC29B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8F59021C42D258005BC29B /* FirstViewController.swift */; };
+		CD8F59051C42D258005BC29B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8F59041C42D258005BC29B /* SecondViewController.swift */; };
+		CD8F59081C42D258005BC29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8F59061C42D258005BC29B /* Main.storyboard */; };
+		CD8F590A1C42D258005BC29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8F59091C42D258005BC29B /* Assets.xcassets */; };
+		CD8F590D1C42D258005BC29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8F590B1C42D258005BC29B /* LaunchScreen.storyboard */; };
+		CD8F59181C42D259005BC29B /* SuibianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8F59171C42D259005BC29B /* SuibianTests.swift */; };
+		CD8F59231C42D259005BC29B /* SuibianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8F59221C42D259005BC29B /* SuibianUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD8F59141C42D259005BC29B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8F58F51C42D258005BC29B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8F58FC1C42D258005BC29B;
+			remoteInfo = Suibian;
+		};
+		CD8F591F1C42D259005BC29B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8F58F51C42D258005BC29B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8F58FC1C42D258005BC29B;
+			remoteInfo = Suibian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD8F58FD1C42D258005BC29B /* Suibian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Suibian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8F59001C42D258005BC29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD8F59021C42D258005BC29B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CD8F59041C42D258005BC29B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CD8F59071C42D258005BC29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD8F59091C42D258005BC29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD8F590C1C42D258005BC29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD8F590E1C42D258005BC29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8F59131C42D259005BC29B /* SuibianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuibianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8F59171C42D259005BC29B /* SuibianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuibianTests.swift; sourceTree = "<group>"; };
+		CD8F59191C42D259005BC29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8F591E1C42D259005BC29B /* SuibianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuibianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8F59221C42D259005BC29B /* SuibianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuibianUITests.swift; sourceTree = "<group>"; };
+		CD8F59241C42D259005BC29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8F58FA1C42D258005BC29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8F59101C42D259005BC29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8F591B1C42D259005BC29B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8F58F41C42D258005BC29B = {
+			isa = PBXGroup;
+			children = (
+				CD8F58FF1C42D258005BC29B /* Suibian */,
+				CD8F59161C42D259005BC29B /* SuibianTests */,
+				CD8F59211C42D259005BC29B /* SuibianUITests */,
+				CD8F58FE1C42D258005BC29B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8F58FE1C42D258005BC29B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8F58FD1C42D258005BC29B /* Suibian.app */,
+				CD8F59131C42D259005BC29B /* SuibianTests.xctest */,
+				CD8F591E1C42D259005BC29B /* SuibianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8F58FF1C42D258005BC29B /* Suibian */ = {
+			isa = PBXGroup;
+			children = (
+				CD8F59001C42D258005BC29B /* AppDelegate.swift */,
+				CD8F59021C42D258005BC29B /* FirstViewController.swift */,
+				CD8F59041C42D258005BC29B /* SecondViewController.swift */,
+				CD8F59061C42D258005BC29B /* Main.storyboard */,
+				CD8F59091C42D258005BC29B /* Assets.xcassets */,
+				CD8F590B1C42D258005BC29B /* LaunchScreen.storyboard */,
+				CD8F590E1C42D258005BC29B /* Info.plist */,
+			);
+			path = Suibian;
+			sourceTree = "<group>";
+		};
+		CD8F59161C42D259005BC29B /* SuibianTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8F59171C42D259005BC29B /* SuibianTests.swift */,
+				CD8F59191C42D259005BC29B /* Info.plist */,
+			);
+			path = SuibianTests;
+			sourceTree = "<group>";
+		};
+		CD8F59211C42D259005BC29B /* SuibianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8F59221C42D259005BC29B /* SuibianUITests.swift */,
+				CD8F59241C42D259005BC29B /* Info.plist */,
+			);
+			path = SuibianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8F58FC1C42D258005BC29B /* Suibian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8F59271C42D259005BC29B /* Build configuration list for PBXNativeTarget "Suibian" */;
+			buildPhases = (
+				CD8F58F91C42D258005BC29B /* Sources */,
+				CD8F58FA1C42D258005BC29B /* Frameworks */,
+				CD8F58FB1C42D258005BC29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Suibian;
+			productName = Suibian;
+			productReference = CD8F58FD1C42D258005BC29B /* Suibian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD8F59121C42D259005BC29B /* SuibianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8F592A1C42D259005BC29B /* Build configuration list for PBXNativeTarget "SuibianTests" */;
+			buildPhases = (
+				CD8F590F1C42D259005BC29B /* Sources */,
+				CD8F59101C42D259005BC29B /* Frameworks */,
+				CD8F59111C42D259005BC29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8F59151C42D259005BC29B /* PBXTargetDependency */,
+			);
+			name = SuibianTests;
+			productName = SuibianTests;
+			productReference = CD8F59131C42D259005BC29B /* SuibianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD8F591D1C42D259005BC29B /* SuibianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8F592D1C42D259005BC29B /* Build configuration list for PBXNativeTarget "SuibianUITests" */;
+			buildPhases = (
+				CD8F591A1C42D259005BC29B /* Sources */,
+				CD8F591B1C42D259005BC29B /* Frameworks */,
+				CD8F591C1C42D259005BC29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8F59201C42D259005BC29B /* PBXTargetDependency */,
+			);
+			name = SuibianUITests;
+			productName = SuibianUITests;
+			productReference = CD8F591E1C42D259005BC29B /* SuibianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8F58F51C42D258005BC29B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Liu, Yang";
+				TargetAttributes = {
+					CD8F58FC1C42D258005BC29B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CD8F59121C42D259005BC29B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD8F58FC1C42D258005BC29B;
+					};
+					CD8F591D1C42D259005BC29B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD8F58FC1C42D258005BC29B;
+					};
+				};
+			};
+			buildConfigurationList = CD8F58F81C42D258005BC29B /* Build configuration list for PBXProject "Suibian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD8F58F41C42D258005BC29B;
+			productRefGroup = CD8F58FE1C42D258005BC29B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8F58FC1C42D258005BC29B /* Suibian */,
+				CD8F59121C42D259005BC29B /* SuibianTests */,
+				CD8F591D1C42D259005BC29B /* SuibianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8F58FB1C42D258005BC29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8F590D1C42D258005BC29B /* LaunchScreen.storyboard in Resources */,
+				CD8F590A1C42D258005BC29B /* Assets.xcassets in Resources */,
+				CD8F59081C42D258005BC29B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8F59111C42D259005BC29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8F591C1C42D259005BC29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8F58F91C42D258005BC29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8F59051C42D258005BC29B /* SecondViewController.swift in Sources */,
+				CD8F59011C42D258005BC29B /* AppDelegate.swift in Sources */,
+				CD8F59031C42D258005BC29B /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8F590F1C42D259005BC29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8F59181C42D259005BC29B /* SuibianTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8F591A1C42D259005BC29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8F59231C42D259005BC29B /* SuibianUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD8F59151C42D259005BC29B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8F58FC1C42D258005BC29B /* Suibian */;
+			targetProxy = CD8F59141C42D259005BC29B /* PBXContainerItemProxy */;
+		};
+		CD8F59201C42D259005BC29B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8F58FC1C42D258005BC29B /* Suibian */;
+			targetProxy = CD8F591F1C42D259005BC29B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD8F59061C42D258005BC29B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8F59071C42D258005BC29B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD8F590B1C42D258005BC29B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8F590C1C42D258005BC29B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD8F59251C42D259005BC29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD8F59261C42D259005BC29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD8F59281C42D259005BC29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Suibian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ly.Suibian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD8F59291C42D259005BC29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Suibian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ly.Suibian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD8F592B1C42D259005BC29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuibianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ly.SuibianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Suibian.app/Suibian";
+			};
+			name = Debug;
+		};
+		CD8F592C1C42D259005BC29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuibianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ly.SuibianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Suibian.app/Suibian";
+			};
+			name = Release;
+		};
+		CD8F592E1C42D259005BC29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuibianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ly.SuibianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Suibian;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD8F592F1C42D259005BC29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuibianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ly.SuibianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Suibian;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8F58F81C42D258005BC29B /* Build configuration list for PBXProject "Suibian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8F59251C42D259005BC29B /* Debug */,
+				CD8F59261C42D259005BC29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8F59271C42D259005BC29B /* Build configuration list for PBXNativeTarget "Suibian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8F59281C42D259005BC29B /* Debug */,
+				CD8F59291C42D259005BC29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD8F592A1C42D259005BC29B /* Build configuration list for PBXNativeTarget "SuibianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8F592B1C42D259005BC29B /* Debug */,
+				CD8F592C1C42D259005BC29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD8F592D1C42D259005BC29B /* Build configuration list for PBXNativeTarget "SuibianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8F592E1C42D259005BC29B /* Debug */,
+				CD8F592F1C42D259005BC29B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8F58F51C42D258005BC29B /* Project object */;
+}
