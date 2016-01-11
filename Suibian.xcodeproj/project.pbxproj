@@ -15,6 +15,8 @@
 		CD8F590D1C42D258005BC29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8F590B1C42D258005BC29B /* LaunchScreen.storyboard */; };
 		CD8F59181C42D259005BC29B /* SuibianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8F59171C42D259005BC29B /* SuibianTests.swift */; };
 		CD8F59231C42D259005BC29B /* SuibianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8F59221C42D259005BC29B /* SuibianUITests.swift */; };
+		CD8F59311C42D6B3005BC29B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8F59301C42D6B3005BC29B /* ProfileViewController.swift */; };
+		CD8F59331C42DE73005BC29B /* EditRandomItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8F59321C42DE73005BC29B /* EditRandomItemsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CD8F591E1C42D259005BC29B /* SuibianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuibianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8F59221C42D259005BC29B /* SuibianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuibianUITests.swift; sourceTree = "<group>"; };
 		CD8F59241C42D259005BC29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8F59301C42D6B3005BC29B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CD8F59321C42DE73005BC29B /* EditRandomItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditRandomItemsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 				CD8F59021C42D258005BC29B /* FirstViewController.swift */,
 				CD8F59041C42D258005BC29B /* SecondViewController.swift */,
 				CD8F59061C42D258005BC29B /* Main.storyboard */,
+				CD8F59321C42DE73005BC29B /* EditRandomItemsTableViewController.swift */,
 				CD8F59091C42D258005BC29B /* Assets.xcassets */,
 				CD8F590B1C42D258005BC29B /* LaunchScreen.storyboard */,
 				CD8F590E1C42D258005BC29B /* Info.plist */,
+				CD8F59301C42D6B3005BC29B /* ProfileViewController.swift */,
 			);
 			path = Suibian;
 			sourceTree = "<group>";
@@ -261,7 +267,9 @@
 			files = (
 				CD8F59051C42D258005BC29B /* SecondViewController.swift in Sources */,
 				CD8F59011C42D258005BC29B /* AppDelegate.swift in Sources */,
+				CD8F59311C42D6B3005BC29B /* ProfileViewController.swift in Sources */,
 				CD8F59031C42D258005BC29B /* FirstViewController.swift in Sources */,
+				CD8F59331C42DE73005BC29B /* EditRandomItemsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
